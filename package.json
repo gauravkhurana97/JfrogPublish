@@ -1,6 +1,6 @@
 {
   "name": "BuildAction",
-  "version": "1.0.8",
+  "version": "2.0.1",
   "private": false,
   "main": "./lib/ScrollUpButton.js",
   "dependencies": {
@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "publishConfig":{"registry":"https://khurana.jfrog.io/artifactory/api/npm/default-npm-local/"},
   "eslintConfig": {
     "extends": [
       "react-app",
