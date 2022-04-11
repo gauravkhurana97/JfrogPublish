@@ -1,6 +1,6 @@
 {
   "name": "BuildAction",
-  "version": "4.0.3",
+  "version": "4.0.7",
   "private": false,
   "main": "./lib/ScrollUpButton.js",
   "dependencies": {
@@ -12,7 +12,10 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
-  "files":["build","package.json"],
+  "files": [
+    "build",
+    "package.json"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -39,7 +42,8 @@
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1"
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1"
   },
   "plugins": [
     "@semantic-release/commit-analyzer",
