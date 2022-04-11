@@ -1,6 +1,6 @@
 {
   "name": "BuildAction",
-  "version": "3.0.1",
+  "version": "4.0.2",
   "private": false,
   "main": "./lib/ScrollUpButton.js",
   "dependencies": {
