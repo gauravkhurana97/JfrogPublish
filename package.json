@@ -1,6 +1,6 @@
 {
   "name": "BuildAction",
-  "version": "4.0.7",
+  "version": "4.0.9",
   "private": false,
   "main": "./lib/ScrollUpButton.js",
   "dependencies": {
@@ -16,6 +16,11 @@
     "build",
     "package.json"
   ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -44,7 +49,8 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^9.0.1"
+    "@semantic-release/npm": "^9.0.1",
+    "cz-conventional-changelog": "^3.3.0"
   },
   "plugins": [
     "@semantic-release/commit-analyzer",
