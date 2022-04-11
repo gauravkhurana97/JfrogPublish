@@ -1,7 +1,7 @@
 {
   "name": "BuildAction",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "main": "./lib/ScrollUpButton.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -62,6 +62,7 @@
     "@semantic-release/github"
   ],
   "release": {
+    "branches": ["master", "next"],
     "prepare": [
       "@semantic-release/npm",
       "@semantic-release/changelog",
